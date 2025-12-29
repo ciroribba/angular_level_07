@@ -5,7 +5,7 @@ import { FullscreenMapPage } from './pages/fullscreen-map-page/fullscreen-map-pa
 
 export const routes: Routes = [
     {
-        path: '',
+        path: 'fullscreen',
         component: FullscreenMapPage,
         title: 'Fullscreen Map'
     },
@@ -21,6 +21,6 @@ export const routes: Routes = [
     },
     {
         path: '**',
-        redirectTo: ''
+        redirectTo: 'fullscreen'
     }
 ];
