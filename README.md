@@ -60,7 +60,12 @@ For more information on using the Angular CLI, including detailed command refere
 
 
 # MapApp
-
+Levantar proyecto en Dev
+1. Clonar repositorio
+2. Instalar dependencias
+3. Generar el `.env` basado en el `.env.template`
+4. Ejecutar el comando `npm run set-envs
+`
 ## Environment variables
 
 Copy `.env.template` to `.env` and fill the values.
